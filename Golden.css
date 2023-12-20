@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(pxfuel.jpg);
+    color: white;
+    
+}
+.navbar{
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navlist{
+    list-style-type: none;
+
+}
+.navlist .listitem{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #38c0bc;
+    
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out,opacity 0.5s ease-in-out, color 0.5s ease-in-out, 
+    font-size 0.5s ease-in-out;
+
+}
+
+.logo:hover{
+    transform: translateX(-40px);
+    opacity: 0.4;
+    color: #38c0bc;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    
+}
+
+
+.s1,.s2{
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #38c0bc;
+}
+.link:visited{
+    color: brown;
+}
+
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+.flip {
+    
+    height: 450px;
+    
+  }
+  
+  .flipper {
+    transition: transform 0.6s ease-in-out;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+
+    
+  }
+  
+  .front, .back {
+      backface-visibility: hidden;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .front {
+    transform: rotateY(0deg);
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+  }
+  
+  .flipper:hover {
+    transform: rotateY(180deg);
+  }
+
+
+  .signup{
+    width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border: 1px solid #ccc;
+  }
+  
+  .signup .ti{
+    text-align: center;
+    color: #38c0bc;
+  }
+
+
+  .signup label{
+    display: block;
+    margin-bottom: 5px;
+    color: #38c0bc;
+  }
+  
+  input[type=text], input[type=email] {
+    width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+
+  input[type=text]:focus, input[type=email]:focus {
+    background-color:#333;
+    outline: none;
+  }
+
+  #sign {
+    width: 50%;
+  padding: 15px;
+  background-color: #1f1f1f;
+    color: #38c0bc;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  }
+
+  .center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+  .foot{
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #1f1f1f;
+  }
+
+  #copyright{
+    text-decoration: none;
+    color: #38c0bc;
+  }
+
+  p{
+    line-height: 1.6;
+    width: 50%;
+    margin: 20px auto;
+    font-size: large;
+    font-weight: 500;
+  }
+  #myBtn { 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #38c0bc; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50px; 
+    font-size: 25px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
